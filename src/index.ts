@@ -1,4 +1,4 @@
-const objeto: { [key: string]: string } = {
+const objeto: Record<string, string> = {
   chaveA: 'value A',
   chaveB: 'value B',
 };
