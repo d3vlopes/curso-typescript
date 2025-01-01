@@ -1,7 +1,8 @@
-const objeto = {
-  chaveA: 'value',
-  chaveB: 'value',
+const objeto: { [key: string]: string } = {
+  chaveA: 'value A',
+  chaveB: 'value B',
 };
 
-// não podemos adicionar novas propriedades
-objeto.chaveC = 'value';
+objeto.chaveC = 'value C';
+
+console.log(objeto);
