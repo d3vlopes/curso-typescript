@@ -1,8 +1,7 @@
-const objeto: Record<string, string> = {
-  chaveA: 'value A',
-  chaveB: 'value B',
-};
+const arrayDeNumeros: number[] = [1, 2, 3];
+const arrayDeString: string[] = ['Josh', 'Patrick', 'Lamar'];
+const arrayDeStringENumeros: (string | number)[] = [1, 'Alice', 55];
 
-objeto.chaveC = 'value C';
-
-console.log(objeto);
+console.log(arrayDeString);
+console.log(arrayDeNumeros);
+console.log(arrayDeStringENumeros);
