@@ -1,5 +1,8 @@
-function soma(x: number, y: number): number {
-  return x + y;
+function functionWithCallback(
+  callback: (result: number) => string,
+  param: number,
+) {
+  console.log('=>', callback(param));
 }
 
-console.log(soma(10, 7));
+functionWithCallback((a) => a.toString(), 55);
