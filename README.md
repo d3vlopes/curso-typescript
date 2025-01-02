@@ -7,7 +7,7 @@ Se você já conhece Javascript, o Typescript será um divisor de águas na sua 
 
 📚 O que você vai aprender?
 </br >
-👉 Aula 001 - Tipos Primitivos 
+👉 [Aula 001 - Tipos Primitivos](https://www.linkedin.com/posts/d3vlopes_curso-de-typescript-gratuito-aula-001-activity-7280553429804929026-z8jz?utm_source=share&utm_medium=member_desktop)
 </br >
 👉 Aula 002 - Objetos e Arrays
 </br >
