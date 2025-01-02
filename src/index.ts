@@ -1,7 +1,5 @@
-const arrayDeNumeros: Array<number> = [1, 2, 3];
-const arrayDeString: Array<string> = ['Josh', 'Patrick', 'Lamar'];
-const arrayDeStringENumeros: Array<string | number> = [1, 'Alice', 55];
+function soma(x: number, y: number) {
+  return x + y;
+}
 
-console.log(arrayDeString);
-console.log(arrayDeNumeros);
-console.log(arrayDeStringENumeros);
+console.log(soma(10, 7));
