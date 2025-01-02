@@ -1,8 +1,5 @@
-function functionWithCallback(
-  callback: (result: number) => string,
-  param: number,
-) {
-  console.log('=>', callback(param));
+function hello(name: string, age?: number) {
+  return `Meu nome é ${name} e tenho ${age} anos`;
 }
 
-functionWithCallback((a) => a.toString(), 55);
+console.log(hello('Leandro'));
