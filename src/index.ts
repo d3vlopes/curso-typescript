@@ -1,5 +1,18 @@
-function hello(name: string, age = 30) {
-  return `Meu nome é ${name} e tenho ${age} anos`;
+function showMessage(message: any) {
+  return message;
 }
 
-console.log(hello('Leandro'));
+// a função showMessage aceita receber todos esses tipos de parâmetros
+showMessage([1, 2, 3]); // array
+showMessage('Olá'); // string
+showMessage(1); // number
+
+function showMessage2(message: string) {
+  return message;
+}
+
+showMessage2([1, 2, 3]);
+showMessage2(1);
+
+// aceita somente parâmetros com o tipo correto
+showMessage2('Olá');
