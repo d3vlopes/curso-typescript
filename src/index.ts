@@ -1,9 +1,8 @@
-let fullName: string;
-
-function joinArgs(...args: string[]): void {
-  fullName = args.join(' ');
-
-  console.log(fullName);
+function error(message: string): never {
+  throw new Error(message);
 }
 
-joinArgs('Leandro', 'Lopes');
+function fail() {
+  return error(`Ops! Algo deu errado... 
+    Parece que o código se perdeu no caminho!`);
+}
