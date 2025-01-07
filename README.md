@@ -7,11 +7,11 @@ Se você já conhece Javascript, o Typescript será um divisor de águas na sua 
 
 📚 O que você vai aprender?
 </br >
-🔷 [Aula 001 - Tipos Primitivos](https://www.linkedin.com/posts/d3vlopes_curso-de-typescript-gratuito-aula-001-activity-7280553429804929026-z8jz?utm_source=share&utm_medium=member_desktop)
+🔷 [Aula 001 - Tipos Primitivos](https://www.linkedin.com/posts/d3vlopes_curso-de-typescript-gratuito-aula-001-activity-7280553429804929026-z8jz)
 </br >
-🔷 [Aula 002 - Objetos e Arrays](https://www.linkedin.com/posts/d3vlopes_curso-de-typescript-aula-002-activity-7280915812054355968-EuXT?utm_source=share&utm_medium=member_desktop)
+🔷 [Aula 002 - Objetos e Arrays](https://www.linkedin.com/posts/d3vlopes_curso-de-typescript-aula-002-activity-7280915812054355968-EuXT)
 </br >
-🔷 Aula 003 - Funções 
+🔷 [Aula 003 - Funções](https://www.linkedin.com/posts/d3vlopes_curso-de-typescript-aula-003-activity-7282003015413174272-JDQn) 
 </br >
 🔷 Aula 004 - Mais tipos
 </br >
