@@ -1,28 +1,20 @@
-// number
-enum Weight {
-  LIGHT = 300,
-  REGULAR = 400,
+const fullName: unknown = 'Leandro Lopes';
+
+// Precisamos fazer uma verificação primeiro
+console.log(fullName.toUpperCase());
+
+if (typeof fullName === 'string') {
+  console.log(fullName.toUpperCase()); // OK
 }
 
-// string
-enum Size {
-  SMALL = '1.4rem',
-  MEDIUM = '1.6rem',
-}
+const objeto: Record<string, string> = {
+  chaveA: 'Value A',
+  chaveB: false, // aceita apenas value do tipo string
+};
 
-enum LogLevel {
-  ERROR,
-  WARN,
-  INFO,
-  DEBUG,
-}
-
-// Não podemos alterar o valor de um enum
-Size.SMALL = '1.2';
-
-console.log(Weight.LIGHT); // 300
-console.log(Weight['REGULAR']); // 400
-console.log(Size.SMALL); // 1.4rem
-console.log(Size['MEDIUM']); // 1.6rem
-console.log(LogLevel.ERROR); // 0
-console.log(LogLevel.WARN); // 1
+const objetoUnknown: Record<string, unknown> = {
+  chaveA: 'Value A',
+  // Aceita outros tipos
+  chaveB: false,
+  chaveC: 10,
+};
