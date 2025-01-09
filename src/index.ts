@@ -1,20 +1,8 @@
-const fullName: unknown = 'Leandro Lopes';
+async function loadUser(): Promise<{ name: string }> {
+  const response = await fetch('https://jsonplaceholder.typicode.com/users/1');
+  const user = await response.json();
 
-// Precisamos fazer uma verificação primeiro
-console.log(fullName.toUpperCase());
-
-if (typeof fullName === 'string') {
-  console.log(fullName.toUpperCase()); // OK
+  return user;
 }
 
-const objeto: Record<string, string> = {
-  chaveA: 'Value A',
-  chaveB: false, // aceita apenas value do tipo string
-};
-
-const objetoUnknown: Record<string, unknown> = {
-  chaveA: 'Value A',
-  // Aceita outros tipos
-  chaveB: false,
-  chaveC: 10,
-};
+loadUser().then((user) => console.log(user.name));
