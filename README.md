@@ -13,7 +13,7 @@ Se você já conhece Javascript, o Typescript será um divisor de águas na sua 
 </br >
 🔷 [Aula 003 - Funções](https://www.linkedin.com/posts/d3vlopes_curso-de-typescript-aula-003-activity-7282003015413174272-JDQn) 
 </br >
-🔷 Aula 004 - Mais tipos
+🔷 [Aula 004 - Outros tipos](https://www.linkedin.com/posts/d3vlopes_curso-de-typescript-aula-004-activity-7283252280731033600-ew9U)
 </br >
 🔷 Aula 005 - Union Types, Type Assertion e Literal Types
 </br >
