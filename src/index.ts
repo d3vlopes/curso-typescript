@@ -1,8 +1,9 @@
-async function loadUser(): Promise<{ name: string }> {
-  const response = await fetch('https://jsonplaceholder.typicode.com/users/1');
-  const user = await response.json();
+const person: {
+  name?: string;
+  age?: string | number;
+} = {};
 
-  return user;
-}
-
-loadUser().then((user) => console.log(user.name));
+person.name = 'Leandro';
+// age aceita uma string ou um number
+person.age = '12';
+person.age = 12;
