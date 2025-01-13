@@ -1,11 +1,9 @@
-function stringOrDate(value: Date | string) {
-  return value;
+function generateColor(color: 'Vermelho' | 'Amarelo' | 'Azul') {
+  return color;
 }
 
-const value1 = stringOrDate(new Date());
-// erro, o compilador não sabe se value1 tem o tipo string ou Date
-value1.getTime();
-
-const value2 = stringOrDate(new Date()) as Date;
-
-value2.getTime();
+generateColor('Vermelho');
+generateColor('Amarelo');
+generateColor('Azul');
+// Só aceita Vermelho OU Amarelo OU Azul
+generateColor('Verde');
