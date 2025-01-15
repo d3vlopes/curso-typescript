@@ -1,9 +1,7 @@
-function generateColor(color: 'Vermelho' | 'Amarelo' | 'Azul') {
-  return color;
+function soma(x: number, y: number): number {
+  return x + y;
 }
 
-generateColor('Vermelho');
-generateColor('Amarelo');
-generateColor('Azul');
-// Só aceita Vermelho OU Amarelo OU Azul
-generateColor('Verde');
+function soma2(x: number, y: number) {
+  return x + y;
+}
