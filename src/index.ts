@@ -1,7 +1,3 @@
-function soma(x: number, y: number): number {
-  return x + y;
-}
-
-function soma2(x: number, y: number) {
-  return x + y;
-}
+let nome = 'Leandro'; // sabe que nome é uma string
+let idade = 99; // sabe que idade é um number
+let adulto = true; // sabe que adulto é um boolean
