@@ -1,6 +1,18 @@
-type ID = string | number;
+interface Identifier {
+  id: string;
+}
+interface Address {
+  street: string;
+}
 
-let identificador: ID;
+interface User {
+  name: string;
+}
 
-identificador = 123; // Válido
-identificador = 'abc'; // Válido
+type Customer = Address & User & Identifier;
+
+const customer: Customer = {
+  id: crypto.randomUUID(),
+  name: 'John Doe',
+  street: 'Loren ipsum dolor',
+};
