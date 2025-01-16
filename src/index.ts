@@ -1,9 +1,6 @@
-interface ButtonAttributes {
-  className: string;
-  onClick: () => void;
-}
+type ID = string | number;
 
-// ButtonProps tem as mesmas props que ButtonAttributes
-type ButtonProps = ButtonAttributes;
+let identificador: ID;
 
-const Button = ({ className, onClick }: ButtonProps) => {};
+identificador = 123; // Válido
+identificador = 'abc'; // Válido
