@@ -1,7 +1,16 @@
-function withTwoGeneric<T, U>(name: T, age: U) {
-  return `Olá, me chamo ${name} e tenho ${age} anos`;
+interface User<T> {
+  data: T;
 }
 
-const greeting = withTwoGeneric<string, number>('Leandro', 30);
+interface UserModel {
+  name: string;
+  email: string;
+}
 
-console.log(greeting);
+function createUser({ data }: User<UserModel>) {
+  return data;
+}
+
+const user = createUser({
+  data: { name: 'John Doe', email: 'jdoe@example.com' },
+});
