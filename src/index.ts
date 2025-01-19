@@ -1,16 +1,13 @@
-interface User<T> {
+interface User<T extends { name: string }> {
   data: T;
 }
 
 interface UserModel {
-  name: string;
+  name: string | null;
   email: string;
 }
 
+// name não pode ser do tipo null
 function createUser({ data }: User<UserModel>) {
   return data;
 }
-
-const user = createUser({
-  data: { name: 'John Doe', email: 'jdoe@example.com' },
-});
