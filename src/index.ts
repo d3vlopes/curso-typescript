@@ -1,13 +1,17 @@
-interface User<T extends { name: string }> {
-  data: T;
-}
-
-interface UserModel {
-  name: string | null;
+interface User {
+  name: string;
   email: string;
+  created_at: Date;
 }
 
-// name não pode ser do tipo null
-function createUser({ data }: User<UserModel>) {
-  return data;
-}
+// created_at é obrigatório
+const user: User = {
+  name: 'Leandro Lopes',
+  email: 'leandro@email.com',
+};
+
+// todas as propriedades de User são opcionais
+const user2: Partial<User> = {
+  name: 'Leandro Lopes',
+  email: 'leandro@email.com',
+};
