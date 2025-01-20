@@ -17,9 +17,9 @@ Se você já conhece Javascript, o Typescript será um divisor de águas na sua 
 </br >
 🔷 [Aula 005 - Union Types, Type Assertion e Literal Types](https://www.linkedin.com/posts/d3vlopes_curso-de-typescript-aula-005-activity-7284539692849467392-nbhY)
 </br >
-🔷 Aula 006 - Inferência de tipo
+🔷 [Aula 006 - Inferência de tipo](https://www.linkedin.com/posts/d3vlopes_curso-de-typescript-aula-006-007-activity-7285792957570387968-Twd7)
 </br >
-🔷 Aula 007 - Interface e Types
+🔷 [Aula 007 - Interface e Types](https://www.linkedin.com/posts/d3vlopes_curso-de-typescript-aula-006-007-activity-7285792957570387968-Twd7)
 </br >
 🔷 Aula 008 - Generics
 </br >
