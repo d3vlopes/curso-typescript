@@ -1,17 +1,14 @@
-interface User {
-  name: string;
-  email: string;
-  created_at: Date;
+interface Todo {
+  title: string;
+  description: string;
+  isCompleted: boolean;
 }
 
-// created_at é obrigatório
-const user: User = {
-  name: 'Leandro Lopes',
-  email: 'leandro@email.com',
-};
+// cria um novo tipo com as propriedades definidas
+type TodoPreview = Pick<Todo, 'title' | 'isCompleted'>;
 
-// todas as propriedades de User são opcionais
-const user2: Partial<User> = {
-  name: 'Leandro Lopes',
-  email: 'leandro@email.com',
+// TodoPreview contém as propriedades title & isCompleted
+const todoPreview: TodoPreview = {
+  title: 'Limpar quarto',
+  isCompleted: false,
 };
