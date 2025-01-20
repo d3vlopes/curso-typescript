@@ -4,11 +4,11 @@ interface Todo {
   isCompleted: boolean;
 }
 
-// cria um novo tipo com as propriedades definidas
-type TodoPreview = Pick<Todo, 'title' | 'isCompleted'>;
+// cria um novo tipo omitindo as propriedades definidas
+type TodoPreview = Omit<Todo, 'isCompleted'>;
 
 // TodoPreview contém as propriedades title & isCompleted
 const todoPreview: TodoPreview = {
   title: 'Limpar quarto',
-  isCompleted: false,
+  description: 'Loren ipsum dolor sit',
 };
