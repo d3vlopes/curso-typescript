@@ -21,7 +21,7 @@ Se você já conhece Javascript, o Typescript será um divisor de águas na sua 
 </br >
 🔷 [Aula 007 - Interface e Types](https://www.linkedin.com/posts/d3vlopes_curso-de-typescript-aula-006-007-activity-7285792957570387968-Twd7)
 </br >
-🔷 Aula 008 - Generics
+🔷 [Aula 008 - Generics](https://www.linkedin.com/posts/d3vlopes_curso-de-typescript-aula-008-activity-7287246833809059840-DFZE?utm_source=share&utm_medium=member_desktop)
 </br >
 🔷 Aula 009 - Utility Types
 </br >
