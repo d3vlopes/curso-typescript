@@ -1,14 +1,9 @@
-interface Todo {
-  title: string;
-  description: string;
-  isCompleted: boolean;
-}
+type ColorType = 'primary' | 'secondary' | 'danger';
 
-// cria um novo tipo omitindo as propriedades definidas
-type TodoPreview = Omit<Todo, 'isCompleted'>;
+type Colors = Record<ColorType, string>;
 
-// TodoPreview contém as propriedades title & isCompleted
-const todoPreview: TodoPreview = {
-  title: 'Limpar quarto',
-  description: 'Loren ipsum dolor sit',
+const colors: Colors = {
+  primary: '#0048FE',
+  secondary: '#851D86',
+  danger: '#EB5757',
 };
