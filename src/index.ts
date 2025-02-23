@@ -1,17 +1,16 @@
-class UseCase {
-  protected handle() {
-    // ...code
+class GetProfileUseCase {
+  public name: string;
+  readonly username: string;
+
+  constructor(name: string, username: string) {
+    this.name = name;
+    this.username = username;
   }
 }
 
-class LoginUseCase extends UseCase {
-  execute() {
-    // podemos acessar aqui o método da subclasse
-    this.handle();
-  }
-}
+const getProfileUseCase = new GetProfileUseCase('Leandro Lopes', 'd3vlopes');
 
-const useCase = new UseCase();
-
-// não é possível acessar o método fora da classe/subclasse
-useCase.handle();
+// Podemos alterar o valor
+getProfileUseCase.name = 'Lopes Leandro';
+// Não podemos alterar o valor de uma propriedade readonly
+getProfileUseCase.username = 'lopes123';
