@@ -1,16 +1,17 @@
-class LoginUseCase {
-  private username: string;
-
-  constructor(username: string) {
-    this.username = username;
-  }
-
-  execute() {
+class UseCase {
+  protected handle() {
     // ...code
   }
 }
 
-const loginUseCase = new LoginUseCase('d3vlopes');
+class LoginUseCase extends UseCase {
+  execute() {
+    // podemos acessar aqui o método da subclasse
+    this.handle();
+  }
+}
 
-// não é possível acessar fora da classe
-loginUseCase.username;
+const useCase = new UseCase();
+
+// não é possível acessar o método fora da classe/subclasse
+useCase.handle();
