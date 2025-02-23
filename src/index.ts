@@ -1,9 +1,19 @@
-type ColorType = 'primary' | 'secondary' | 'danger';
+class LoginUseCase {
+  // adicionando explicitamente o modificador
+  public username: string;
 
-type Colors = Record<ColorType, string>;
+  constructor(username: string) {
+    this.username = username;
+  }
 
-const colors: Colors = {
-  primary: '#0048FE',
-  secondary: '#851D86',
-  danger: '#EB5757',
-};
+  // omitindo o modificador de acesso
+  execute() {
+    // ...code
+  }
+}
+
+const loginUseCase = new LoginUseCase('d3vlopes');
+
+// é possível acessar fora da classe
+loginUseCase.username;
+loginUseCase.execute();
