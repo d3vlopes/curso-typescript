@@ -25,13 +25,9 @@ Se você já conhece Javascript, o Typescript será um divisor de águas na sua 
 </br >
 🔷 [Aula 009 - Utility Types](https://www.linkedin.com/posts/d3vlopes_curso-de-typescript-aula-009-utility-types-activity-7289613168539000832-qSa2?utm_source=share&utm_medium=member_desktop)
 </br >
-🔷 Aula 010 - Classes (Parte 1)
+🔷 [Aula 010 - Classes (Parte 1)](https://www.linkedin.com/posts/d3vlopes_curso-de-typescript-aula-010-activity-7299760033205030916-UEEB)
 </br >
 🔷 Aula 011 - Classes (Parte 2)
-</br >
-🔷 Aula 012 - Dicas
-</br >
-🔷 Aula 013 - Desafio
 </br >
 
 Todos os direitos do curso são reservados para o autor [Leandro Lopes](https://github.com/d3vlopes).
