@@ -1,16 +1,17 @@
-class GetProfileUseCase {
-  public name: string;
-  readonly username: string;
+abstract class UseCase {
+  // propriedade abstrata
+  protected abstract resource: string;
 
-  constructor(name: string, username: string) {
-    this.name = name;
-    this.username = username;
-  }
+  // método abstrato
+  abstract execute(): void;
 }
 
-const getProfileUseCase = new GetProfileUseCase('Leandro Lopes', 'd3vlopes');
+class CreateUserUseCase extends UseCase {
+  // implementação da propriedade abstrata
+  protected resource = 'users';
 
-// Podemos alterar o valor
-getProfileUseCase.name = 'Lopes Leandro';
-// Não podemos alterar o valor de uma propriedade readonly
-getProfileUseCase.username = 'lopes123';
+  // implementação do método abstrato
+  execute() {
+    console.log(`Creating a new ${this.resource}`);
+  }
+}
