@@ -1,17 +1,21 @@
-abstract class UseCase {
-  // propriedade abstrata
-  protected abstract resource: string;
+// sem utilizar Parameter Properties
+class CreteUserUseCase {
+  private readonly name: string;
+  private readonly email: string;
+  private readonly password: string;
 
-  // método abstrato
-  abstract execute(): void;
+  constructor(name: string, email: string, password: string) {
+    this.name = name;
+    this.email = email;
+    this.password = password;
+  }
 }
 
-class CreateUserUseCase extends UseCase {
-  // implementação da propriedade abstrata
-  protected resource = 'users';
-
-  // implementação do método abstrato
-  execute() {
-    console.log(`Creating a new ${this.resource}`);
-  }
+// com Parameter Properties
+class CreateUserUseCase {
+  constructor(
+    private readonly name: string,
+    private readonly email: string,
+    private readonly password: string,
+  ) {}
 }
