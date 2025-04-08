@@ -27,7 +27,7 @@ Se você já conhece Javascript, o Typescript será um divisor de águas na sua 
 </br >
 🔷 [Aula 010 - Classes (Parte 1)](https://www.linkedin.com/posts/d3vlopes_curso-de-typescript-aula-010-activity-7299760033205030916-UEEB)
 </br >
-🔷 Aula 011 - Classes (Parte 2)
+🔷 [Aula 011 - Classes (Parte 2)](https://www.linkedin.com/posts/d3vlopes_curso-de-typescript-aula-011-activity-7312805996773478401-3PKD)
 </br >
 
 Todos os direitos do curso são reservados para o autor [Leandro Lopes](https://github.com/d3vlopes).
